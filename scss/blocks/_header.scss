@@ -19,6 +19,10 @@
 .header__logo-image {
     width: 20px;
     height: 20px;
+
+    background: url('./../image/logo.png');
+
+    mix-blend-mode: screen;
 }
 
 .header__logo-text {
