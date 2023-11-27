@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Orbitron:regular,500,600,700,800,900);
+
+
+body {
+    font-family: $font-main;
+    background-color: $bg-main;
+    color: $white;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+a {
+    color: $white;
+    transition: color 0.2s ease-in;
+
+    &:hover {
+        color: $accent;
+    }
+}
+
+.title {
+    color: $white;
+    font-family: $font-title;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title-2 {
+    font-family: $font-title;
+    font-size: 48px;
+    font-weight: 500;
+
+    margin-bottom: 12px;
+}
+
+.button-link {
+    padding: 16px 32px;
+    border-radius: 61px;
+
+    font-family: $font-main;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+
+    background: $accent;
+}

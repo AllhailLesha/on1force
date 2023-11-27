@@ -1,0 +1,13 @@
+.nav {
+}
+.nav__list {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 24px;
+}
+.nav__item {
+    font-family: $font-main;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+}

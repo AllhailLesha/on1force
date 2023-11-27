@@ -1,0 +1,252 @@
+/*-----BASE-----*/
+/* Reset and base styles  */
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Orbitron:regular,500,600,700,800,900);
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+/*----- FONTS-----*/
+/*-----COLORS-----*/
+body {
+  font-family: "Inconsolata";
+  background-color: #171717;
+  color: #fff;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+a {
+  color: #fff;
+  transition: color 0.2s ease-in;
+}
+a:hover {
+  color: #EB5855;
+}
+
+.title {
+  color: #fff;
+  font-family: "Orbitron";
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.title-2 {
+  font-family: "Orbitron";
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.button-link {
+  padding: 16px 32px;
+  border-radius: 61px;
+  font-family: "Inconsolata";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  background: #EB5855;
+}
+
+/*-----BLOCKS-----*/
+.header__top-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 24px 0;
+  margin-bottom: 16px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}
+
+.header__logo-image {
+  width: 20px;
+  height: 20px;
+}
+
+.header__logo-text {
+  font-family: "Orbitron";
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.header__nav-button {
+  padding: 12px 24px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 34px;
+}
+
+.header__main {
+  min-height: 800px;
+  margin-bottom: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background: url("./../image/header/bg-main-picture.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__title {
+  max-width: 760px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 24px;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 56px;
+       column-gap: 56px;
+}
+
+.header__company-logo {
+  width: 48px;
+  height: 48px;
+  mix-blend-mode: lighten;
+}
+
+.header__company-name {
+  width: 158px;
+  height: 114px;
+  mix-blend-mode: lighten;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: nowrap;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+}
+
+.nav__item {
+  font-family: "Inconsolata";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 531px 1fr;
+}
+
+.card__description {
+  padding: 40px;
+  border-radius: 16px 0px 0px 16px;
+  background-color: #222;
+}
+
+.card__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 48px;
+}
+
+.card__text p + p {
+  margin-top: 0.5em;
+}
+
+.card-image {
+  border-radius: 0px 16px 16px 0px;
+  background: url("./../image/cards/card-1.png");
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,80 @@
+.header {
+}
+
+.header__top-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    padding: 24px 0;
+    margin-bottom: 16px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.header__logo-image {
+    width: 20px;
+    height: 20px;
+}
+
+.header__logo-text {
+    font-family: $font-title;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.header__nav {
+}
+
+.header__nav-button {
+    padding: 12px 24px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 34px;
+}
+
+.header__main {
+    min-height: 800px;
+    margin-bottom: 48px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 16px;
+    background: url('./../image/header/bg-main-picture.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__title {
+    max-width: 760px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 24px;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+    column-gap: 56px;
+}
+
+.header__company-logo {
+    width: 48px;
+    height: 48px;
+
+    mix-blend-mode: lighten;
+}
+
+.header__company-name {
+    width: 158px;
+    height: 114px;
+
+    mix-blend-mode: lighten;
+}

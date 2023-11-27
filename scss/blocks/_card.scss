@@ -1,0 +1,30 @@
+.card {
+    display: grid;
+    grid-template-columns: 531px 1fr;
+}
+
+.card__description {
+    padding: 40px;
+
+    border-radius: 16px 0px 0px 16px;
+    background-color: $bg-card;
+}
+
+
+.card__text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+
+    margin-bottom: 48px;
+}
+
+
+.card__text p + p {
+    margin-top: 0.5em;
+}
+
+.card-image {
+    border-radius: 0px 16px 16px 0px;
+    background: url('./../image/cards/card-1.png');
+}
