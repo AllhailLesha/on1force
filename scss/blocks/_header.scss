@@ -49,7 +49,21 @@
     background: url('./../image/header/bg-main-picture.png');
     background-repeat: no-repeat;
     background-size: cover;
+
+    animation: changing 10s infinite;
+
 }
+
+@keyframes changing {
+    0% {
+        background-image: url('./../image/header/bg-main-picture.png');
+    }
+    50% {
+        background-image: url('./../image/header/bg-second-picture.png');
+    }
+}
+
+
 
 .header__title {
     max-width: 760px;
