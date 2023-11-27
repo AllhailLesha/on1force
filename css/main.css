@@ -190,7 +190,7 @@ a:hover {
   0% {
     background-image: url("./../image/header/bg-main-picture.png");
   }
-  100% {
+  50% {
     background-image: url("./../image/header/bg-second-picture.png");
   }
 }
