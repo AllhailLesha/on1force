@@ -1,6 +1,36 @@
 .cards {
 }
 .cards__wrapper {
-    
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    grid-template-areas: 
+        "card-title card-title"
+        "card-marketplace card-lore"
+        "card-comic card-frame";
+    gap: 16px;
+}
+
+.card-title {
+    grid-area: card-title;
+
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+}
+
+.card-marketplace {
+    grid-area: card-marketplace;
+}
+
+.card-lore {
+    grid-area: card-lore;
+}
+
+.card-comic {
+    grid-area: card-comic;
+    margin-top: -86px;
+}
+
+.card-frame {
+    grid-area: card-frame;
 }
 
