@@ -164,6 +164,10 @@ p em {
   top: 2px;
   box-shadow: none;
 }
+.button-link--join {
+  display: block;
+  padding: 16px 90px;
+}
 
 /*-----BLOCKS-----*/
 .header__top-row {
@@ -263,6 +267,10 @@ p em {
   line-height: 1.2;
 }
 
+.cards {
+  margin-bottom: 64px;
+}
+
 .cards__wrapper {
   display: grid;
   grid-template-columns: 1fr 1.25fr;
@@ -306,6 +314,10 @@ p em {
   padding: 32px 32px 46px 32px;
   border-radius: 0px 0px 16px 16px;
 }
+.card__description--join {
+  height: 100%;
+  border-radius: 16px 16px 16px 16px;
+}
 
 .card__text {
   font-size: 20px;
@@ -334,4 +346,20 @@ p em {
 }
 .card-image--bottom {
   border-radius: 0px 0px 0px 0px;
+}
+
+.join {
+  margin-bottom: 32px;
+}
+
+.join__wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1.5fr;
+  gap: 15px;
+}
+
+.arts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
 }/*# sourceMappingURL=main.css.map */
