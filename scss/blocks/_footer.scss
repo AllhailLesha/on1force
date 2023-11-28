@@ -1,0 +1,33 @@
+.footer {
+    padding: 40px 32px;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__start {
+}
+
+.footer__sotials {
+}
+
+.footer__sotials-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    margin-bottom: 24px;
+}
+
+.footer__end {
+}
+
+.footer__terms-use {
+    margin-bottom: 24px;
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: end;
+}

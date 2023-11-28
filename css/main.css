@@ -169,6 +169,14 @@ p em {
   padding: 16px 90px;
 }
 
+.copyright {
+  color: #fff;
+  font-family: "Inconsolata";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
 /*-----BLOCKS-----*/
 .header__top-row {
   display: flex;
@@ -354,7 +362,7 @@ p em {
 
 .join__wrapper {
   display: grid;
-  grid-template-columns: 3fr 1.5fr;
+  grid-template-columns: 2fr 1fr;
   gap: 15px;
 }
 
@@ -362,4 +370,30 @@ p em {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
+}
+
+.footer {
+  padding: 40px 32px;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__sotials-list {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  margin-bottom: 24px;
+}
+
+.footer__terms-use {
+  margin-bottom: 24px;
+}
+
+.footer__logo {
+  display: flex;
+  justify-content: end;
 }/*# sourceMappingURL=main.css.map */
