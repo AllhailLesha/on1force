@@ -10,6 +10,30 @@
     margin-bottom: 16px;
 }
 
+.header__fixed {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: $bg-main;
+    animation-name: header;
+    animation-duration: .2s;
+}
+
+@keyframes header {
+    0% {
+        opacity: 0;
+        top: -100px;
+    }
+    100% {
+        opacity: 1;
+        top: 0px;
+    }
+}
+
 .header__logo {
     display: flex;
     align-items: center;
